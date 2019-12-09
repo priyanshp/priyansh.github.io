@@ -1,0 +1,119 @@
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body, html{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+header {
+	display: flex;
+	background: lightblue;
+}
+.bg{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#particles-js{
+	height: 100%;
+	background: #2D62C4;
+}
+.banner-area h1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto-light', sans-serif;
+	color:#fff;
+	font-size: 3em;
+}
+.banner-area h2{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto-light', sans-serif;
+	color:#fff;
+	font-size: 3em;
+}
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.nav-area h1{
+	font-family: 'Open Sans', sans-serif;
+	font-style: bold;
+	font-size:20px;
+}
+.about-me h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color:#000;
+	font-size:45px;
+}
+.about-me p{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	color:#000;
+	font-size:23px;
+}
+.about-me a{
+	color:black;
+}
+.certificates h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color:#000;
+	font-size:45px;
+}
+.certificates h3{
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color:#000;
+	padding-left: 50px;
+}
+.certificates p{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	color:#000;
+	font-size:20px;
+	padding-left: 80px;
+}
+.imgclass{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.hr{
+	width:10%;
+	margin-left:auto;
+	margin-right: auto;
+}
+.padded{padding-left:15%;
+		padding-right:15%;
+		padding-top:1%
+}
